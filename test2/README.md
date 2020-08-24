@@ -153,9 +153,8 @@ Content-Type: application/json
 PATCH http://127.0.0.1:8000/bees/2/damage HTTP/1.1
 Accept: application/json
 Content-Type: application/json
-```
 { "op": "substract", "path": "/health", "value": 20 }
-
+```
 **Successful Response:**
 ```json
 HTTP/1.1 200 OK
