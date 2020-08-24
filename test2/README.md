@@ -86,7 +86,7 @@ class NewBee extends \Shiptheory\Models\BaseBee
 ```
 
 
-## API Routed
+## API Routes
 ### Get all the bees 
 
 **Request:**
