@@ -1,0 +1,23 @@
+{
+    "name": "shiptheory/bee",
+    "description": "Bee Technical Test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {"Shiptheory\\": "src/"}
+    },
+    "authors": [
+        {
+            "name": "Adrian Tamas",
+            "email": "adrian.tamas84@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "dev-master"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.2@dev",
+        "phpunit/phpunit": "^9"
+    }
+}
